@@ -1,16 +1,8 @@
-# 바이널씨(VinylC) 보고서 디자인 시스템 (버전1)
+# 바이널씨(VinylC) 문서디자인 스킬 (v1.1)
 
-> **Single Source of Truth (SSOT)** for all VinylC report visuals & components.
-> 개별 보고서 HTML은 이 시스템을 구현한 인스턴스일 뿐 SSOT가 아니다. 컴포넌트 정의·토큰 값은 항상 이 시스템을 따른다.
-
-이 디자인 시스템은 바이널씨(VinylC)가 산출하는 **보고서(report)** 의 시각 규칙·컴포넌트를 정의한다. 마케팅 사이트나 앱이 아닌, **PDF·HTML·docx·pptx 로 내보내는 문서/발표 산출물** 전용 시스템이다.
-
-## 출처 (Sources)
-이 시스템은 사용자가 제공한 SSOT 명세 문서 *"VinylC 보고서 디자인 시스템 (컴포넌트 SSOT) — `vinylc-report` 스킬 개정 Phase 3"* 를 그대로 구현했다. 입력 SSOT:
-- `phase1_component_inventory.md` (컴포넌트 인벤토리)
-- `phase2_mece_classification.md` (3축 매핑)
-
-제공 자산: `PretendardVariable.ttf`, `symbol-black.svg` / `symbol-white.svg`, `wordmark-black.png` / `wordmark-white.png`. (코드베이스/Figma 링크는 제공되지 않음 — 명세 문서가 유일한 SSOT)
+> 이 스킬은 바이널씨 스타일로 문서를 생성하는 스킬로 바이널씨 홈페이지로부터 디자인스타일을 추출해 만든 스킬입니다. 
+> 사용법은 텍스트나 워드 등 원천소스를 첨부한 후 "/vinylc-document-design"으로 스킬을 직접 호출하거나 "바이널씨 문서로 변환해주세요"라고 하면 됩니다. 이때 출력형태도 같이 요청합니다. (프리젠테이션형, 연속문서형, 1페이지, html / pdf) 
+> 예) "프리젠테이션 형태의 바이널씨 문서로 디자인해 주세요" 
 
 ---
 
